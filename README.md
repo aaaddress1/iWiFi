@@ -9,7 +9,7 @@
 至 [下載頁面](https://github.com/aaaddress1/iWiFi/releases) 選擇對應版本號之 macosRelease.zip 文件並解壓縮取得 iWiFi.app 靜態程式文件，使用 [control] + 右鍵 點擊靜態程式文件（亦可在系統設定內信任本程式之自根簽）選擇「打開（open）」後按下確認來開啟程式。
 
 ## 開發者
-若對於本程式不信任，可下載本專案原始碼自行使用 XCode 8.1 做編譯取得程式文件。
+若對於本程式不信任，可下載本專案原始碼自行使用 XCode 8.1 並使用 CocoaPods 更新、安裝第三方套件後，編譯 iWIFI.xcworkspace 專案取得程式文件。
 
 # iWiFi for macOS
 
