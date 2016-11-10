@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7395BD321DD1BC9600149787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7395BD311DD1BC9600149787 /* AppDelegate.swift */; };
+		7395BD341DD1BC9600149787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7395BD331DD1BC9600149787 /* ViewController.swift */; };
+		7395BD361DD1BC9600149787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7395BD351DD1BC9600149787 /* Assets.xcassets */; };
+		7395BD391DD1BC9600149787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7395BD371DD1BC9600149787 /* Main.storyboard */; };
+		7395BD4E1DD1F47100149787 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7395BD4D1DD1F47100149787 /* Reachability.m */; };
+		7395BD501DD1FC2E00149787 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7395BD4F1DD1FC2E00149787 /* SystemConfiguration.framework */; };
+		FD9FAA1F3A6125DB76BE534A /* Pods_iWIFI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3512EF1895B41768A7477BC /* Pods_iWIFI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7395BD2E1DD1BC9600149787 /* iWIFI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWIFI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7395BD311DD1BC9600149787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7395BD331DD1BC9600149787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7395BD351DD1BC9600149787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7395BD381DD1BC9600149787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7395BD3A1DD1BC9600149787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7395BD4B1DD1F47000149787 /* iWIFI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iWIFI-Bridging-Header.h"; sourceTree = "<group>"; };
+		7395BD4C1DD1F47100149787 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7395BD4D1DD1F47100149787 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7395BD4F1DD1FC2E00149787 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B3512EF1895B41768A7477BC /* Pods_iWIFI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iWIFI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57F214F80ACC396E85C12E1 /* Pods-iWIFI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWIFI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iWIFI/Pods-iWIFI.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B8D12E6CCA8BF40D2D0A9A /* Pods-iWIFI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWIFI.release.xcconfig"; path = "Pods/Target Support Files/Pods-iWIFI/Pods-iWIFI.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7395BD2B1DD1BC9600149787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7395BD501DD1FC2E00149787 /* SystemConfiguration.framework in Frameworks */,
+				FD9FAA1F3A6125DB76BE534A /* Pods_iWIFI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24EC62ED5A508069B28F56BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7395BD4F1DD1FC2E00149787 /* SystemConfiguration.framework */,
+				B3512EF1895B41768A7477BC /* Pods_iWIFI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7395BD251DD1BC9600149787 = {
+			isa = PBXGroup;
+			children = (
+				7395BD4C1DD1F47100149787 /* Reachability.h */,
+				7395BD4D1DD1F47100149787 /* Reachability.m */,
+				7395BD301DD1BC9600149787 /* iWIFI */,
+				7395BD2F1DD1BC9600149787 /* Products */,
+				B21E8BC3FDD663799D235CB1 /* Pods */,
+				24EC62ED5A508069B28F56BF /* Frameworks */,
+				7395BD4B1DD1F47000149787 /* iWIFI-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		7395BD2F1DD1BC9600149787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7395BD2E1DD1BC9600149787 /* iWIFI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7395BD301DD1BC9600149787 /* iWIFI */ = {
+			isa = PBXGroup;
+			children = (
+				7395BD311DD1BC9600149787 /* AppDelegate.swift */,
+				7395BD331DD1BC9600149787 /* ViewController.swift */,
+				7395BD351DD1BC9600149787 /* Assets.xcassets */,
+				7395BD371DD1BC9600149787 /* Main.storyboard */,
+				7395BD3A1DD1BC9600149787 /* Info.plist */,
+			);
+			path = iWIFI;
+			sourceTree = "<group>";
+		};
+		B21E8BC3FDD663799D235CB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B57F214F80ACC396E85C12E1 /* Pods-iWIFI.debug.xcconfig */,
+				F1B8D12E6CCA8BF40D2D0A9A /* Pods-iWIFI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7395BD2D1DD1BC9600149787 /* iWIFI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7395BD3D1DD1BC9600149787 /* Build configuration list for PBXNativeTarget "iWIFI" */;
+			buildPhases = (
+				5D2F10AF2A6F8A7158D18007 /* [CP] Check Pods Manifest.lock */,
+				7395BD2A1DD1BC9600149787 /* Sources */,
+				7395BD2B1DD1BC9600149787 /* Frameworks */,
+				7395BD2C1DD1BC9600149787 /* Resources */,
+				A68EA4E57DA39FE5EC208B37 /* [CP] Embed Pods Frameworks */,
+				A6671131A44EFA348EF60EE7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iWIFI;
+			productName = iWIFI;
+			productReference = 7395BD2E1DD1BC9600149787 /* iWIFI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7395BD261DD1BC9600149787 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = aaaddress1;
+				TargetAttributes = {
+					7395BD2D1DD1BC9600149787 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DJTBWHJZX4;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7395BD291DD1BC9600149787 /* Build configuration list for PBXProject "iWIFI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7395BD251DD1BC9600149787;
+			productRefGroup = 7395BD2F1DD1BC9600149787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7395BD2D1DD1BC9600149787 /* iWIFI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7395BD2C1DD1BC9600149787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7395BD361DD1BC9600149787 /* Assets.xcassets in Resources */,
+				7395BD391DD1BC9600149787 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D2F10AF2A6F8A7158D18007 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6671131A44EFA348EF60EE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iWIFI/Pods-iWIFI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68EA4E57DA39FE5EC208B37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iWIFI/Pods-iWIFI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7395BD2A1DD1BC9600149787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7395BD341DD1BC9600149787 /* ViewController.swift in Sources */,
+				7395BD4E1DD1F47100149787 /* Reachability.m in Sources */,
+				7395BD321DD1BC9600149787 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7395BD371DD1BC9600149787 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7395BD381DD1BC9600149787 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7395BD3B1DD1BC9600149787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7395BD3C1DD1BC9600149787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		7395BD3E1DD1BC9600149787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57F214F80ACC396E85C12E1 /* Pods-iWIFI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DJTBWHJZX4;
+				INFOPLIST_FILE = iWIFI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adr.iWIFI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iWIFI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7395BD3F1DD1BC9600149787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B8D12E6CCA8BF40D2D0A9A /* Pods-iWIFI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DJTBWHJZX4;
+				INFOPLIST_FILE = iWIFI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adr.iWIFI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iWIFI-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7395BD291DD1BC9600149787 /* Build configuration list for PBXProject "iWIFI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7395BD3B1DD1BC9600149787 /* Debug */,
+				7395BD3C1DD1BC9600149787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7395BD3D1DD1BC9600149787 /* Build configuration list for PBXNativeTarget "iWIFI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7395BD3E1DD1BC9600149787 /* Debug */,
+				7395BD3F1DD1BC9600149787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7395BD261DD1BC9600149787 /* Project object */;
+}
